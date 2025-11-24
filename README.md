@@ -1,5 +1,3 @@
----
-
 # 🍽️ **Bite & Delight – Online Restaurant Website**
 
 *A Fully Responsive Frontend + LocalStorage-Based Cart & Review System*
