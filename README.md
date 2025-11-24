@@ -114,18 +114,6 @@ This project demonstrates:
 
 ---
 
-## 🖼️ **Screenshots (Optional)**
-
-*(You can add them later)*
-
-```
-![Homepage](images/screenshot-home.png)
-![Cart Page](images/screenshot-cart.png)
-![Review Page](images/screenshot-review.png)
-```
-
----
-
 ## 🔧 **How to Run the Project**
 
 1. Clone the repo:
