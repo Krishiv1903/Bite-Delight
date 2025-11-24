@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your Order - Bite & Delight</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav>
+                <div class="icon">
+                    <i class="fas fa-utensils"></i>
+                    <p>Bite & Delight</p>
+                </div>
+                <div class="links">
+                    <a href="index.html#home" class="page-links">Home</a>
+                    <a href="index.html#menu" class="page-links">Menu</a>
+                    <a href="index.html#reviews" class="page-links">Reviews</a>
+                    <a href="index.html#map" class="page-links">Find Us</a>
+                    <button class="addtocart">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <main style="padding-top:110px; padding-bottom:40px;">
+            <section style="max-width:1100px; margin:0 auto; padding:20px;">
+                <h1 style="color:hsl(30,100%,50%); margin-bottom:16px;">Your Order</h1>
+                <div id="cart-list" style="display:grid; gap:12px;"></div>
+                <div id="cart-summary" style="margin-top:18px; display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;">
+                    <div style="font-size:18px; color:black;">Total Items: <span id="total-items">0</span></div>
+                    <div style="font-size:20px; font-weight:700;">Total: ₹<span id="total-price">0</span></div>
+                </div>
+                <div style="margin-top:18px; display:flex; gap:12px; flex-wrap:wrap;">
+                    <button id="clear-cart-btn" style="background:hsl(30,100%,50%); color:white; border:none; padding:10px 16px; border-radius:10px;">Clear Cart</button>
+                    <button id="place-order-btn" style="background:transparent; border:2px solid hsl(30,100%,50%); color:hsl(30,100%,40%); padding:10px 16px; border-radius:10px;">Place Order</button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <h3>Bite & Delight</h3>
+                    <p>Serving happiness one bite at a time. Freshly made, delivered fast!</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#menu">Menu</a></li>
+                        <li><a href="index.html#reviews">Reviews</a></li>
+                        <li><a href="index.html#map">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Food Street</p>
+                    <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    <p><i class="fas fa-envelope"></i> support@biteanddelight.com</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Bite & Delight</p>
+            </div>
+        </footer>
+
+        <script src="js/cart.js"></script>
+    </body>
+</html>
