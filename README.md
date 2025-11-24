@@ -39,9 +39,13 @@ It includes a fully functional **Add to Cart**, **Order Page**, and **Review Sys
 This project demonstrates:
 
 ✔ Frontend design & UI skills
+
 ✔ JavaScript DOM manipulation
+
 ✔ LocalStorage data handling
+
 ✔ Responsive design using Flexbox + Media Queries
+
 ✔ Modular file-based structure
 
 ---
